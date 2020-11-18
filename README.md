@@ -1,7 +1,7 @@
 ## Introduction
 www.richardsimbana.com <br />
 
-This portfolio website was build using ReactJS and styled with Boostrap. I will be using this project to evolve my skills as a developer and will continue to add more features along the way. <br />
+This portfolio website was build using ReactJS and styled with Bootstrap. I will be using this project to evolve my skills as a developer and will continue to add more features along the way. <br />
 
 ## Overview
 
