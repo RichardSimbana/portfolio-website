@@ -1,0 +1,50 @@
+.home {
+    background: url('../../images/home-page.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-title {
+    font-family: 'BebasNeue-Bold', Helvetica, Arial, sans-serif;
+    font-size: 96px;
+    color: white;
+    text-align: center;
+    line-height: 1;
+}
+
+.home-subtitle {
+    font-family: 'BebasNeue-Regular', Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+@media (max-width: 850px) {
+    .home-title {
+        font-family: 'BebasNeue-Bold', Helvetica, Arial, sans-serif;
+        font-size: 32px;
+        color: white;
+        text-align: center;
+        line-height: 1;
+    }
+    
+    .home-subtitle {
+        font-family: 'BebasNeue-Regular', Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        letter-spacing: 2px;
+        line-height: 1;
+    }
+
+    .home {
+        background-attachment: unset;
+    }
+}

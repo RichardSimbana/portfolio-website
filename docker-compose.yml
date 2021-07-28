@@ -1,0 +1,8 @@
+version: "3.2" 
+services:
+    portfolio:
+        environment: 
+            - APP_NAME=portfolio-website-app
+        build: .
+        expose:
+            - 8080

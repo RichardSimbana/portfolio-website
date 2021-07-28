@@ -1,0 +1,38 @@
+.work {
+    background: url("../../images/work-page.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    max-width: 300px;
+}
+
+.modal-body-title {
+  color: black !important;
+  margin: 0!important;
+  font-weight: bold;
+}
+
+.modal-body-content {
+  color: black !important;
+}
+
+.modal-title {
+  font-weight: bold;
+}
+
+.modal-row {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 850px) {
+  .work {
+      background-attachment: unset;
+  }
+}
