@@ -1,23 +1,27 @@
-.profile-pic {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  margin-bottom: 32px;
-}
-
-.about {
+.about-me {
   background: url('../../images/about-page.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-@media (max-width: 850px) {
-  .about {
-      background-attachment: unset;
-  }
+.about-me .cell {
+  margin: 15px;
+}
+
+.about-me .grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+
+.about-me .grid > *:first-child {
+  grid-column: 1 / span 2;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
 }
