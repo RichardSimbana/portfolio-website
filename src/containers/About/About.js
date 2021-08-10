@@ -18,7 +18,7 @@ const About = () => {
                 <div className="cell">
                     <label>Download:</label>
                     {/* <Link to="./resume.pdf" target="_blank" download> */}
-                        <button type="button" className="btn btn-primary ml-1">Resume<i className="fas fa-file-download ml-1" /></button>
+                        <button type="button" className="btn btn-primary ml-1">Resume<i className="fas fa-file-download" /></button>
                     {/* </Link> */}
                 </div>
             </div>

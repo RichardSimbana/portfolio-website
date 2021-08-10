@@ -4,34 +4,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.form {
-  background: rgba(145, 145, 145, 0.3);
-  border-radius: 10px;
+.contact .grid {
+  grid-template-columns: 60% 40%;
 }
 
-.btn-tw {
-  color: #fff !important;
-  background-color: #55acee !important;
-}
-
-.btn-git {
-  color: #fff !important;
-  background-color: #333 !important;
-}
-
-.btn-li {
-  color: #fff !important;
-  background-color: #0082ca !important;
-}
-
-@media (max-width: 850px) {
-  .contact {
-      background-attachment: unset;
-      background-position: center;
-  }
+.contact .grid > *:first-child {
+  grid-column: 1 / span 2;
 }
