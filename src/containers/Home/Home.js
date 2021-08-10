@@ -3,12 +3,12 @@ import './Home.css';
 
 const home = () => {
     return (
-        <div id="home" className="container-fluid home">
-            <div className="jumbotron">
-                <div className="home-title">Richard Simbana</div>
-                <div className="home-subtitle">Full Stack Developer</div>
+        <section className="home flex">
+            <div className="container text-align">
+                <h1>Richard Simbana</h1>
+                <h2>Full Stack Developer</h2>
             </div>
-        </div>
+        </section>
     )
 }
 export default home;

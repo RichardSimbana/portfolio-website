@@ -4,10 +4,10 @@ const ContactForm = props => {
     const iconToUse = () => {
         return (
             props.isEmailConfirming ?
-                <button className="btn btn-primary" disabled>Send
+                <button className="btn btn-primary mt-2" disabled>Send
                     <div className="spinner-border ml-2" role="status" />
                 </button> : 
-                <button className="btn btn-primary" type="submit">Send
+                <button className="btn btn-primary mt-2" type="submit">Send
                     <i className="far fa-paper-plane ml-2" />
                 </button>
             );
@@ -15,52 +15,43 @@ const ContactForm = props => {
     
     return (
         <form onSubmit={props.onSubmit}>
-            <div className="row">
-                <div className="col">
-                    <i className="fas fa-user-alt mr-2" />
-                    <label>Your Name</label>
-                    <input
-                        required
-                        id="name"
-                        type="text"
-                        className="form-control"
-                        value={props.contactForm.name}
-                        onChange={event => props.onChange(event)}
-                    />
-                </div>
+            <div className="">
+                <i className="fas fa-user-alt"/>
+                <label>Your Name</label>
+                <input
+                    required
+                    id="name"
+                    type="text"
+                    className="form-control mt-1"
+                    value={props.contactForm.name}
+                    onChange={event => props.onChange(event)}
+                />
             </div>
-            <br />
-            <div className="row">
-                <div className="col">
-                    <i className="far fa-envelope mr-2" />
-                    <label>Your email</label>
-                    <input
-                        required
-                        id="email"
-                        type="email"
-                        className="form-control"
-                        value={props.contactForm.email}
-                        onChange={event => props.onChange(event)}
-                    />
-                </div>
+            <div className="mt-2">
+                <i className="far fa-envelope"/>
+                <label>Your email</label>
+                <input
+                    required
+                    id="email"
+                    type="email"
+                    className="form-control mt-1"
+                    value={props.contactForm.email}
+                    onChange={event => props.onChange(event)}
+                />
             </div>
-            <br />
-            <div className="row">
-                <div className="col">
-                    <i className="fas fa-pencil-alt mr-2" />
-                    <label>Your Message</label>
-                    <textarea
-                        required
-                        id="message"
-                        type="text"
-                        rows="3"
-                        className="form-control"
-                        value={props.contactForm.message}
-                        onChange={event => props.onChange(event)}
-                    />
-                    <br />
-                    {iconToUse()}
-                </div>
+            <div className="mt-2">
+                <i className="fas fa-pencil-alt"/>
+                <label>Your Message</label>
+                <textarea
+                    required
+                    id="message"
+                    type="text"
+                    rows="3"
+                    className="form-control mt-1"
+                    value={props.contactForm.message}
+                    onChange={event => props.onChange(event)}
+                />
+                {iconToUse()}
             </div>
         </form>
     );

@@ -7,7 +7,7 @@ import Work from './containers/Work/Work.js';
 import Contact from './containers/Contact/Contact.js';
 import * as emailjs from 'emailjs-com';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends React.Component {
   constructor(props) {
