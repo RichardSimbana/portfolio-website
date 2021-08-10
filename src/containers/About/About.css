@@ -10,12 +10,6 @@
   margin: 15px;
 }
 
-.about-me .grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  align-items: center;
-}
-
 .about-me .grid > *:first-child {
   grid-column: 1 / span 2;
 }
