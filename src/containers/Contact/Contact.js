@@ -28,7 +28,7 @@ const Contact = props => {
                         <label>richardsimbana@yahoo.com</label>
                     </div>
                     <br/>
-                    <div>
+                    <div className="mt-2">
                         <button onClick={() => window.open('https://www.github.com/richardsimbana')} type="button" className="btn mr-2"><i className="fab fa-github" />Github</button>
                         <button onClick={() => window.open('https://www.linkedin.com/in/richardsimbana/')} type="button" className="btn"><i className="fab fa-linkedin-in" />Linkedin</button>
                     </div>

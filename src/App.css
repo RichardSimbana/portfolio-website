@@ -114,6 +114,18 @@ p, label {
   margin-right: 1.5rem;
 }
 
+.mt-1 {
+  margin-top: 0.5rem;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+
+.mt-3 {
+  margin-top: 1.5rem;
+}
+
 .pl-1 {
   padding-left: 0.5rem;
 }

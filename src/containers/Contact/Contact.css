@@ -13,3 +13,21 @@
 .contact .grid > *:first-child {
   grid-column: 1 / span 2;
 }
+
+.contact input, .contact textarea {
+  display: block;
+  width: 100%;
+}
+
+.contact input {
+  height: 30px;
+}
+
+.contact textarea {
+  height: 100px;
+}
+
+.contact form {
+  padding: 30px 0;
+  padding-right: 30px;
+}
