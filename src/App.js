@@ -4,7 +4,7 @@ import Header from './components/Header.js';
 import About from './containers/About.js';
 import Home from './containers/Home.js';
 import Work from './containers/Work/Work.js';
-import Contact from './containers/Contact/Contact.js';
+import Contact from './containers/Contact.js';
 import * as emailjs from 'emailjs-com';
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
