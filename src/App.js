@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header.js';
-import About from './containers/About/About.js';
-import Home from './containers/Home/Home.js';
+import About from './containers/About.js';
+import Home from './containers/Home.js';
 import Work from './containers/Work/Work.js';
 import Contact from './containers/Contact/Contact.js';
 import * as emailjs from 'emailjs-com';
